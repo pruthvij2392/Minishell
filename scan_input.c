@@ -13,7 +13,7 @@ char *external[200];    // Array to store external commands
 int main()
 {
     char input_string[100]; // Buffer to store user input
-    char prompt[100] = "Minishell$:"; // Default shell prompt
+    char prompt[100] = "Minishell_PJ$:"; // Default shell prompt
     system("clear"); // Clear screen
     scan_input(prompt, input_string); // Start the shell input loop
     return 0; // Exit the program
